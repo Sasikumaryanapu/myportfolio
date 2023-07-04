@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import {Routes,Route} from "react-router-dom"
+import Contact from "./components/Contact";
+import Education from "./components/Education"
+import Certificates from "./components/Certificates";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Login from "./Authenication/Login";
+// import { AuthProvider } from "./Authenication/Auth";
 
 function App() {
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+     {/* <AuthProvider> */}
+       <Routes>
+        <Route index element={<Home/>} />
+        <Route path="/Education" element={<Education/>} />
+        <Route path="/Contact" element={<Contact/>} />
+        <Route path="/Certificates" element={<Certificates/>} />
+        <Route path="/Projects" element={<Projects/>} />
+        <Route path="/Skills" element={<Skills/>} />
+        <Route path="/login" element={<Login/>} />
+
+
+       </Routes>
+    {/* </AuthProvider> */}
+    <Footer/>
+
+     
     </div>
   );
 }

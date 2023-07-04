@@ -1,0 +1,22 @@
+.container{
+    height:544px;
+    width:750px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.card{
+    width:600px;
+    border-bottom:1px solid black;
+    box-shadow:"10px 10px 10px grey";
+}
+
+p{
+    font-size: larger;
+    font-weight: 600;
+}
