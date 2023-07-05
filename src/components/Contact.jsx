@@ -5,6 +5,7 @@ import * as Yup from "yup"
 import styled from '@emotion/styled';
 import { Box, Typography,Button } from '@mui/material';
 import contact from "./contact.png"
+import Footer from './Footer';
 
 
 const Container=styled(Box)`
@@ -61,6 +62,7 @@ function Contact() {
       });
 
   return (
+    <>
     <Container>
     <Boxs>
       <Typography variant="h4" component="h4" style={{fontFamily:"sans-serif",color:"blueviolet"}}>Contact Me</Typography><br/>
@@ -100,6 +102,8 @@ function Contact() {
     <img src={contact} alt="contact
     " width="400px" height="400px"/>
     </Container>
+    <Footer/>
+    </>
   )
 }
 

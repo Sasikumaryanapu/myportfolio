@@ -5,7 +5,7 @@ import styled from '@emotion/styled'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import Footer from './Footer';
 import Myimg from "./Myimgg.png"
 
 const Container=styled(Box)`
@@ -65,6 +65,7 @@ function Home() {
         <Imag src={Myimg} alt="sasi"/>
       </Box>
     </Container>
+    <Footer/>
     </>
   )
 }

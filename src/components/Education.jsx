@@ -5,7 +5,7 @@ import {Card,CardActionArea,CardContent} from "@mui/material"
 import styled from '@emotion/styled';
 import contact from "./contact.png"
 import React from 'react'
-
+import Footer from './Footer';
 
 const Container=styled(Box)`
   display:flex;
@@ -17,6 +17,7 @@ const Container=styled(Box)`
 
 function Education() {
   return (
+    <>
     <Container>
       <Box>
         <Typography variant='h4' sx={{fontWeight:"550",paddingLeft:"40px",paddingBottom:"20px"}}>About Me</Typography>
@@ -78,6 +79,8 @@ function Education() {
       </Box>
     
   </Container>
+  <Footer/>
+  </>
   )
 }
 

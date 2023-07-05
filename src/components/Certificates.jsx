@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import React from 'react'
 import { Box, Typography } from "@mui/material";
 import styled from "@emotion/styled";
-
+import Footer from "./Footer";
 // import expressjs from "../Images/expressjs.png"
 import nodejs from "../Images/nodejs.png"
 import javascript from "../Images/javascript.png"
@@ -79,6 +79,7 @@ return (
 		<br/>These certificates are proof of my work over the last few years</Typography>
 		</Box>
   </Container>
+  <Footer/>
 		</>
 )
 }

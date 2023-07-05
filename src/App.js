@@ -26,7 +26,6 @@ function App() {
         <Route path="/Skills" element={<Skills/>} />
         <Route path="/login" element={<Login/>} />
        </Routes>
-    <Footer/>
     {/* </AuthProvider> */}
 
      

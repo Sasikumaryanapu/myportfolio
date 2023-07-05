@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Projects.css"
+import Footer from './Footer'
 function Projects() {
   
   return (
+    <>
     <div className="container">
       <div className="card" >
         <h1>Citytour - SPA</h1>
@@ -16,6 +18,8 @@ function Projects() {
         <p>RestAPI it is built using nodejs environment and it's packages like expressjs amd mongoose </p>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

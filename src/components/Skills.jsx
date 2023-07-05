@@ -10,6 +10,7 @@ import mongodb from "../Images/mongodb.png"
 import expressjs from "../Images/expressjs.png"
 import nodejs from "../Images/nodejs.png"
 import javascript from "../Images/javascript.png"
+import Footer from './Footer';
 
 
 
@@ -81,6 +82,7 @@ function Skills() {
         ))
        }
   </Container>
+  <Footer/>
   </>
   )
 }
