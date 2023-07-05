@@ -53,10 +53,10 @@ function Footer() {
         <hr style={{display:"block",height:"4px",width:"1000px",backgroundColor:"pink"}} />
         </Box>
           <Content>
-      <Links>contact</Links>
-      <Links>Education</Links>
-      <Links>contact</Links>
-      <Links>Education</Links>
+      <Links to="/skills">skills</Links>
+      <Links to="/education">Education</Links>
+      <Links to="/projects">projects</Links>
+      <Links to="/contact">contact</Links>
       </Content>
       <br/>
       <Box >
