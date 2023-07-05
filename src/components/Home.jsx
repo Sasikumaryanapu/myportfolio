@@ -56,9 +56,9 @@ function Home() {
       />
       </Box>
       <Box >
-        <Links href="#"><LinkedInIcon/></Links>
+        <Links href="https://www.linkedin.com/in/sasi-kumar16"><LinkedInIcon/></Links>
         <Links href="#"><TwitterIcon/></Links>
-        <Links href="#"><GitHubIcon/></Links>
+        <Links href="https://github.com/Sasikumaryanapu"><GitHubIcon/></Links>
       </Box>
       </Box>
       <Box>
