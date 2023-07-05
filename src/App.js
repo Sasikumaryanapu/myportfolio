@@ -19,12 +19,12 @@ function App() {
       <Navbar/>
        <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/Education" element={<Education/>} />
-        <Route path="/Contact" element={<Contact/>} />
-        <Route path="/Certificates" element={<Certificates/>} />
-        <Route path="/Projects" element={<Projects/>} />
-        <Route path="/Skills" element={<Skills/>} />
-        <Route path="/login" element={<Login/>} />
+        <Route path="Education" element={<Education/>} />
+        <Route path="Contact" element={<Contact/>} />
+        <Route path="Certificates" element={<Certificates/>} />
+        <Route path="Projects" element={<Projects/>} />
+        <Route path="Skills" element={<Skills/>} />
+        <Route path="login" element={<Login/>} />
        </Routes>
     {/* </AuthProvider> */}
 
